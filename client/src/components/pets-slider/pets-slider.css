@@ -1,0 +1,25 @@
+.pets-slider {
+    padding-top: 74px;
+    padding-bottom: 68px;
+    background-color: #f6f6f6;
+}
+
+.pets-slider_title {
+    text-align: center;
+    line-height: 45px;
+    letter-spacing: 3px;
+    margin-bottom: 66px;
+}
+
+.pets-slider_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 66px;
+    width: 267px;
+}
+
+@media (max-width: 576px) {
+    .pets-slider_btn {
+        margin-top: 100px;
+    }
+}

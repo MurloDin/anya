@@ -1,0 +1,46 @@
+.pet-card {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0 10px;
+    padding-top: 15px;
+    width: 270px;
+    height: 424px;
+    border-radius: 9px;
+    background-color: #fafafa;
+}
+.pet-card:hover{
+    box-shadow: 0 2px 30px 5px rgba(13, 13, 13, 0.04);
+}
+.img-boundary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 230px;
+    height: 250px;
+    position: absolute;
+    bottom: 154px;
+}
+
+.pet-card__img {
+    max-width: 230px;
+    max-height: 250px;
+}
+
+.pet-card__title {
+    text-align: center;
+    position: absolute;
+    color: #545454;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    bottom: 110px;
+}
+
+.pet-card__btn {
+    width: 188px;
+    position: absolute;
+    bottom: 34px;
+}

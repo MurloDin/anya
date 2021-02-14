@@ -1,0 +1,35 @@
+.mobile-nav {
+    position: relative;
+}
+
+.hamburger-list {
+    padding-left: 0;
+    list-style: none;
+    display: none;
+}
+
+.hamburger-list__link {
+    background-color: #523d2a;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.hamburger-list__link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.hamburger_position {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.hamburger-list.is-active {
+    display: block;
+}

@@ -1,0 +1,7 @@
+.pets-page__title {
+    color: rgba(1,1,1,.6);
+    margin: 60px 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}

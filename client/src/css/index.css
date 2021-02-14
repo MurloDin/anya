@@ -1,0 +1,52 @@
+@import url("./fonts.css");
+
+.container {
+    max-width: 1169px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.main-btn {
+    height: 52px;
+    border-radius: 26px;
+    border: 2px solid #f1cdb3;
+    color: #3b3b3b;
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+    .main-btn:hover {
+        background-color: #f1cdb3;
+        /*transform: scale(1.1);*/
+    }
+
+    .main-btn:focus {
+        outline: none;
+    }
+
+.main-title {
+    color: #545454;
+    font-family: Georgia, serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.main-gif {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+
+@media (max-width: 992px) {
+    .main-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}

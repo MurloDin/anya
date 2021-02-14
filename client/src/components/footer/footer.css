@@ -1,0 +1,26 @@
+.my-footer {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 60px;
+    background: url("/images/2-layers.png") center center/cover no-repeat;
+}
+
+.my-footer__img {
+    position: absolute;
+    bottom: -60px;
+    left: 180%;
+}
+
+@media (max-width: 1200px) {
+    .my-footer .container {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+}
+
+@media (max-width: 992px) {
+    .my-footer__img {
+        display: none;
+    }
+}
+
